@@ -37,9 +37,9 @@
     font-family:"Open Sans",sans-serif;
     font-size: 20px;
     text-decoration: none;
-    margin-bottom: 2%;
+    margin-bottom: 20%;
     margin-left: 10%;
-    margin-right: 50%;
+    margin-right: 10%;
     padding: 0.5%;
     border: 2px solid #0064ff;
     border-radius: 5%;
@@ -116,7 +116,7 @@
   
 
 
-@media (max-width: 400px) {
+@media (max-width: 850px) {
     .vistoria{
         text-align: center;
         height: 80vh;

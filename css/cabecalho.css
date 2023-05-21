@@ -25,7 +25,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 850px) {
     .cabecalho img{
         height: 80px;
         width: 160px;

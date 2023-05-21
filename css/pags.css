@@ -192,7 +192,7 @@ nav a{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 850px){
     div h2{
         font-size: 30px;
     }
