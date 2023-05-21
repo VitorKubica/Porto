@@ -1,0 +1,203 @@
+@import url(./cabecalho.css);
+@import url(./rodape2.css);
+
+.linha {
+    height: 2px;
+    width: 94%;
+    background-color: #333a46;
+    margin-left: 3%;
+    border-radius: 10% ;
+}
+.atencaos {
+    font-family:"Open Sans",sans-serif;
+    font-size: 24px;
+    margin-bottom: 6%;
+}
+div p span{
+    color: #ff0000;
+    font-family:"Open Sans",sans-serif;
+    font-size: 30px;
+}
+div h1{
+    color: #333a46;
+    font-family:"Open Sans",sans-serif;
+    font-size: 50px;
+    margin-top:4%;
+    margin-bottom: 6%;
+}
+div .porto{
+    color: #0064ff;
+    font-size: 54px;
+    margin-top:0%;
+    margin-bottom: 10%;
+}
+div h2{
+    color: #333a46;
+    font-family:"Open Sans",sans-serif;
+    font-size: 50px;
+    margin-top:4%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 55%;
+}
+
+div p{
+    color: #333a46;
+    font-family:"Open Sans",sans-serif;
+    font-size: 20px;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.imagensbike {
+    margin-left: 10%;
+    height: 20vh;
+    margin-bottom: 4%;
+    border: 4px solid #0064ff;
+    border-radius: 10%;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 190px;
+    border: none;
+    background: #0064ff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-bottom: 4%;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10%;
+  }
+  
+  .button:hover {
+    background: #88b0eb;
+  }
+  
+  .button:hover .svg-icon {
+    animation: flickering 2s linear infinite;
+  }
+  
+  @keyframes flickering {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    52% {
+      opacity: 1;
+    }
+  
+    54% {
+      opacity: 0;
+    }
+  
+    56% {
+      opacity: 1;
+    }
+  
+    90% {
+      opacity: 1;
+    }
+  
+    92% {
+      opacity: 0;
+    }
+  
+    94% {
+      opacity: 1;
+    }
+  
+    96% {
+      opacity: 0;
+    }
+  
+    98% {
+      opacity: 1;
+    }
+  
+    99% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333a46;
+    font-family:"Open Sans",sans-serif;
+    color: #fff;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 20%;
+    border: none;
+    background: #0064ff;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+.voltar{
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.voltar2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.feedbackh1{
+    text-align: center;
+    color: #0066ffe8;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.feedbackh2{
+    text-align: center;
+    margin-top:0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.bikeload{
+    width: 20%;
+    margin-left: 40%;
+
+}
+
+@media screen and (max-width: 500px){
+    div h2{
+        font-size: 30px;
+    }
+
+    div h1{
+        margin-top: 20%;
+    }
+}

@@ -1,0 +1,24 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafcf9;    
+}
+
+footer img{
+    height: 5vh;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+footer h2{
+    font-size: 8px;
+    font-family: "Open Sans",sans-serif;
+    margin-left: 5%;
+}
+footer p{
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    margin-inline: 5%;
+    margin-bottom: 1%;
+}

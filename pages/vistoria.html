@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistoria</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="../img/iconeporto.png" />
+    <link rel="stylesheet" href="../css/pags.css">
+    <script src="evento.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="../img/logoporto.png" alt="Logo Porto">
+    </header>
+    <section class ="conteudo2">
+        <div>
+            <h1><center>Vistoria <span class="porto">Porto</span></center></h1> 
+        </div>
+        <div>
+            <p class="atencaos"><span class="atencao">Atencão : </span> Você tem 24hrs para nos enviar os dados da sua bike</p>
+        </div>
+        <div>
+            <h2>Tire uma foto de frente da bike</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotofrente.png" alt="exemplo foto de frente">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+        <div class="linha"></div>
+          
+          <div>
+            <h2>Tire uma foto da bike pelo lado esquerdo</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotoesquerda.png" alt="exemplo foto esquerdo">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+          <div class="linha"></div>
+
+          <div>
+            <h2>Tire uma foto da bike pelo lado direito</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotodireita.png" alt="exemplo foto direita">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+          <div class="linha"></div>
+
+          <div>
+            <h2>Tire uma foto da bike pelo outro lado da bike</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotoverso.png" alt="exemplo foto verso">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+          <div class="linha"></div>
+
+          <div>
+            <h2>Tire uma foto do grupo de cambio da bike</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotocambio.png" alt="exemplo foto cambio">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+          <div class="linha"></div>
+
+          <div>
+            <h2>Tire uma foto do grupo de freio</h2>
+            <p>siga esse modelo</p>
+            <img class="imagensbike"  src="../img/fotofreio.png" alt="exemplo foto freio">
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Tirar Foto</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+          <div class="linha"></div>
+
+          <div>
+            <h2>Grave um breve video de até 15 segudos mostrando a bike funcionando</h2>
+        </div>
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+            <span class="lable">Gravar video</span>
+          </button>
+          <canvas id="canvas" style="display: none;"></canvas>
+
+          <nav>
+            <a href="./vistoriaanalise.html">Concluido</a>
+          </nav>
+          
+
+          <div class="linha"></div>
+
+
+
+
+
+    </section>
+    <footer class = "rodape">
+        <h1>
+            <img src="../img/logoporto.png" alt="logo porto">
+        </h1>
+        <h2>
+            © 2023 Todos os direitos reservados
+        </h2>
+        <p>
+            Processo SUSEP: Bike - 15414.900070/2018-11, Responsabilidade Civil Geral - 15414.900596/2013-88, Acidentes Pessoais (individual) - 15414.900895/2018-27. O registro do produto é automático e não representa aprovação ou recomendação por parte da SUSEP. Em atendimento à regulamentação vigente, informamos que incidem as alíquotas PIS 0,65%; COFINS 4,00%, sobre formação de preço. Observação: IOF informado na apólice de seguro.
+        </p><p>
+            É facultado ao segurado o direito de arrependimento em até 07 (sete) dias da data de recebimento da apólice, conforme previsto no Código de Defesa do Consumidor, desde que não tenha sido utilizado nenhum serviço da apólice ou em caso de "vigência já terminada/risco já decorrido".
+        </p><p>
+            (11) 3366-3110 (Grande São Paulo) 3004-6268(Capitais e grandes centros) 0800 727 8118 (Demais localidades) 0800 727 2765 (SAC - cancelamento e reclamações) 0800 727 8736 (Atendimento exclusivo para deficientes auditivos) 0800 727 1184 (Ouvidoria - das 8h15 às 18h30, de segunda a sexta-feira, exceto feriados).
+        </p><p>
+            Disponível para Bikes a partir de R$ 2.000,00.
+        </p><p>
+            Não haverá cobertura quando tratar-se de subtração parcial.
+        </p><p>
+            Para efeito desta cobertura entende-se como bagagem: a bicicleta segurada e mala utilizada para transporte da bicicleta, comprovadamente sob a responsabilidade da cia aérea ou rodoviária, durante o trajeto de ida e volta de viagem realizada pelo segurado.
+        </p><p>
+            Serviços podem variar de acordo com a região.
+        </p>
+</footer>
+
+</body>
+
+</html>
